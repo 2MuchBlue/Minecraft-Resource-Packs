@@ -6,3 +6,6 @@ more than welcome to use/expand on this, just please give credit if you use (in 
 Anyway, have fun playing with legos, 8x8 textures, or anything else I decide to make!
 
 - Mario P
+
+## to download a pack
+you can download a pack by going into that repositry and clicking the download button.
