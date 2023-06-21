@@ -7,7 +7,9 @@ Anyway, have fun playing with legos, 8x8 textures, or anything else I decide to 
 
 - Mario P
 
-## to download a pack
+## To Download A Pack
+FYI! All Of These Are Made For The Java Edition Of Minecraft! This Won't Work For Bedrock!
+
 you can download a pack by going into that repositry and clicking the download button,
 then once downloaded put it into your resource packs folder which are found here:
 
