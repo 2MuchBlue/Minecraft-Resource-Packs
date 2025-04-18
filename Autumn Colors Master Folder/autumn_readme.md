@@ -1,0 +1,2 @@
+# Autumn Colors Resource Pack
+this is a resource pack I made a long time ago and is really nice. I've made sue it works at least up to 1.21.5. It should work as far back as the first use of the foliage/grass color maps.
