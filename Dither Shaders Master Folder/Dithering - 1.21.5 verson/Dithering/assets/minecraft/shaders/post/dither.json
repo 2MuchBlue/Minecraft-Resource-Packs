@@ -1,0 +1,12 @@
+{
+    "vertex": "minecraft:post/screenquad",
+    "fragment": "minecraft:post/dither",
+    "samplers": [
+        { "name": "SourceSampler" }
+    ],
+    "uniforms": [
+        { "name": "ProjMat",    "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+        { "name": "OutSize",    "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
+        { "name": "DitherMatrix",    "type": "matrix4x4",     "count": 16,  "values": [ 0.0, 12.0, 3.0, 15.0, 8.0, 4.0, 11.0, 7.0, 2.0, 14.0, 1.0, 13.0, 10.0, 6.0, 9.0, 5.0 ] }
+    ]
+}
