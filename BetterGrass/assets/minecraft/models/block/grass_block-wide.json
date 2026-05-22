@@ -1,0 +1,53 @@
+{   "parent": "block/block",
+    "textures": {
+        "particle": "block/dirt",
+        "bottom": "block/dirt",
+        "top": "block/grass_block_top",
+        "top2": "block/grass_block_top2",
+        "top3": "block/grass_block_top3",
+        "top4": "block/grass_block_top4",
+        "side": "block/dirt",
+        "overlay": "block/grass_block_side_overlay"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16.1, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "north" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side",   "cullface": "east" }
+            }
+        },
+        {   "from": [ -0.5, 0, -0.5 ],
+            "to": [ 16.5, 16.1, 16.5 ],
+            "faces": {
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top",    "cullface": "up", "tintindex": 0 },
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "north" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay", "tintindex": 0, "cullface": "east" }
+            }
+        },
+
+        {   "from": [ -0.5, 17.1, -0.5 ],
+            "to": [ 16.5, 17.1, 16.5 ],
+            "faces": {
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top2",    "cullface": "up", "tintindex": 0 }
+            }
+        },
+        {   "from": [ -0.5, 18.1, -0.5 ],
+            "to": [ 16.5, 18.1, 16.5 ],
+            "faces": {
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top3",    "cullface": "up", "tintindex": 0 }
+            }
+        },
+        {   "from": [ -0.5, 19.1, -0.5 ],
+            "to": [ 16.5, 19.1, 16.5 ],
+            "faces": {
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top4",    "cullface": "up", "tintindex": 0 }
+            }
+        }
+    ]
+}
